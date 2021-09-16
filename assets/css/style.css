@@ -1,3 +1,44 @@
-:root{
-    --purple: #9c03c8
+html{
+    height: 100vh;
+}
+
+body{
+    background-image: url("https://media3.giphy.com/media/26tn33aiTi1jkl6H6/200.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style: number;
+    font-size: xx-large;
+}
+
+.game{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+}
+
+.timer{
+    color: white;
+    font-size: xx-large;
 }
